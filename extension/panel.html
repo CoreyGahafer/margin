@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; connect-src 'self'; worker-src 'self'">
+  <title>Margin — Article Audio</title><link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <main>
+    <header><a class="wordmark" href="#">margin<span>◒</span></a><span class="edition">ARTICLE AUDIO</span></header>
+    <div class="intro"><span class="eyebrow">A LITTLE ROOM TO LISTEN</span><h1>Good reads.<br>Out loud.</h1><p>Turn the page into a moment for yourself.</p></div>
+    <section class="article">
+      <div class="section-label"><span>01 / THE ARTICLE</span><button id="extract" class="text-button">Read this tab ↗</button></div>
+      <p id="extract-status" role="status" aria-live="polite" hidden></p>
+      <button id="allow-site" class="secondary" hidden>Allow this site</button>
+      <h2 id="title">Your next listen starts here.</h2><p id="source">Open an article, then choose “Read this tab”. Highlight text to listen to just that passage.</p>
+      <details id="text-details"><summary>Review or paste text <span>＋</span></summary><label class="sr-only" for="text">Article text</label><textarea id="text" placeholder="Or paste an article here…" maxlength="60000"></textarea></details>
+      <div id="meta" class="meta">0 words · about 0 min audio</div>
+    </section>
+    <section class="voice-section"><div class="section-label">02 / MAKE IT YOURS</div><div class="settings-row"><label>VOICE<select id="voice"><option>Luna</option><option>Bella</option><option>Jasper</option><option>Bruno</option><option>Rosie</option><option>Hugo</option><option>Kiki</option><option>Leo</option></select></label><label>NARRATION SPEED<select id="speed"><option value="0.75">0.75×</option><option value="1" selected>1× · Natural</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label></div></section>
+    <button id="generate" class="primary"><span>Make audio</span><span aria-hidden="true">→</span></button><button id="cancel" class="text-button" hidden>Cancel generation</button>
+    <div class="status-wrap"><span id="indicator" class="dot"></span><p id="status" role="status" aria-live="polite">Ready. Audio is made right here in your browser.</p></div>
+    <section id="player" hidden><div class="section-label">03 / YOUR LISTEN</div><p id="audio-info" class="meta"></p><button id="stream-toggle" class="secondary" hidden>Pause listening</button><p id="stream-state" class="meta" role="status" hidden></p><audio id="audio" controls preload="metadata"></audio><label class="playback-label">PLAYBACK SPEED<select id="playback-speed"><option value="0.75">0.75×</option><option value="1" selected>1× · As generated</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label><a id="download" class="download" download="article.wav">Save WAV ↓</a></section>
+    <p class="privacy-note">On your device. Eight voices. No uploads. <a href="privacy.html" target="_blank" rel="noopener">Privacy</a></p>
+    <footer><span>POWERED BY KITTENTTS</span><span>Made for slower moments.</span></footer>
+  </main><script src="stream-player.js"></script><script src="panel.js"></script>
+</body></html>

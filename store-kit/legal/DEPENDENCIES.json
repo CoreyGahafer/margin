@@ -1,0 +1,29 @@
+{
+  "ephone": {
+    "version": "1.0.2",
+    "license": "GPL-3.0-or-later",
+    "revision": "4f6d246c1d3acf67a4d814e20da02fa3967bc92d",
+    "source_url": "https://github.com/sjmik/ephone-js/archive/4f6d246c1d3acf67a4d814e20da02fa3967bc92d.zip",
+    "source_sha256": "62f9a13f194e606b8fd1c1f2483135a6d2609c856ec033c1433c75e1636bec81",
+    "runtime_sha256": "3953f66df632cdce59cb400e5552bec802a3b1333ac60aaf86f04365c103c00f"
+  },
+  "onnxruntime": {
+    "version": "1.30.0",
+    "license": "MIT",
+    "source_url": "https://github.com/microsoft/onnxruntime/archive/refs/tags/v1.30.0.zip",
+    "source_sha256": "44fe58cbb7333601d505252dc37e53adeb899af703be43ace57e1f34e8844481",
+    "runtime_sha256": "3398c10d07d229bd91b364548e130e0e51a8e5704b88c7c083ebbeb78842dee2"
+  },
+  "model": {
+    "repository": "KittenML/kitten-tts-nano-0.8-int8",
+    "revision": "84781d74e29ee25217551556398b42f80593a813",
+    "source_voices_sha256": "8aa7cee235abb0739cb51e6559685f65a4dacd95568833d05699b1633f519b3f",
+    "files": {
+      "kitten.onnx": "f7b0afcbee92870b32b8e0276d855b954dc25470c9f051b376ac7eee537c76fc",
+      "voices.bin": "d520519c4a3519d44fcfcd943ed0b1e3c5da5cee0eea501d922fac1a93cd24dc",
+      "voices.json": "cb0308e191754c7955b96a2c630586b264e6319876f943223f41b70e7ca067f8",
+      "config.json": "b66006ccbeccd4de5fc3c9272059c47f5725df7215fd889785c03602652fab64"
+    }
+  },
+  "application_license": "GPL-3.0-or-later"
+}

@@ -1,0 +1,42 @@
+{
+  "expr-voice-2-m": {
+    "offset": 0,
+    "rows": 400,
+    "width": 256
+  },
+  "expr-voice-2-f": {
+    "offset": 102400,
+    "rows": 400,
+    "width": 256
+  },
+  "expr-voice-3-m": {
+    "offset": 204800,
+    "rows": 400,
+    "width": 256
+  },
+  "expr-voice-3-f": {
+    "offset": 307200,
+    "rows": 400,
+    "width": 256
+  },
+  "expr-voice-4-m": {
+    "offset": 409600,
+    "rows": 400,
+    "width": 256
+  },
+  "expr-voice-4-f": {
+    "offset": 512000,
+    "rows": 400,
+    "width": 256
+  },
+  "expr-voice-5-m": {
+    "offset": 614400,
+    "rows": 400,
+    "width": 256
+  },
+  "expr-voice-5-f": {
+    "offset": 716800,
+    "rows": 400,
+    "width": 256
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "margin-article-audio",
+  "version": "0.3.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.cjs tests/*.mjs",
+    "preview": "node scripts/preview.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": {
+    "ephone": "1.0.2",
+    "onnxruntime-web": "1.30.0"
+  },
+  "license": "GPL-3.0-or-later"
+}

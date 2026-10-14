@@ -1,0 +1,16 @@
+.venv/
+.model-cache/
+__pycache__/
+server/.pairing-key
+*.wav
+.DS_Store
+node_modules/
+dist/
+
+.audit/
+.playwright-cli/
+output/playwright/
+
+# Large matching-source archives are hosted as release assets.
+store-kit/application-source.zip
+store-kit/legal/*-source.zip
